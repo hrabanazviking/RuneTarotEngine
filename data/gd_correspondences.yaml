@@ -1,0 +1,612 @@
+# RuneTarot — Golden Dawn Correspondence Tables
+# Master reference for all GD / Book T correspondences
+
+# ═══════════════════════════════════════════
+# HEBREW LETTER CORRESPONDENCES
+# ═══════════════════════════════════════════
+
+hebrew_letters:
+  aleph:
+    letter: "א"
+    name: "Aleph"
+    number: 1
+    meaning: "Ox"
+    type: "Mother"
+    element: "Air"
+    tarot: "The Fool"
+    path: 11
+    sephiroth: "Kether-Chokmah"
+  beth:
+    letter: "ב"
+    name: "Beth"
+    number: 2
+    meaning: "House"
+    type: "Double"
+    planet: "Mercury"
+    tarot: "The Magician"
+    path: 12
+    sephiroth: "Kether-Binah"
+  gimel:
+    letter: "ג"
+    name: "Gimel"
+    number: 3
+    meaning: "Camel"
+    type: "Double"
+    planet: "Moon"
+    tarot: "The High Priestess"
+    path: 13
+    sephiroth: "Kether-Tiphareth"
+  daleth:
+    letter: "ד"
+    name: "Daleth"
+    number: 4
+    meaning: "Door"
+    type: "Double"
+    planet: "Venus"
+    tarot: "The Empress"
+    path: 14
+    sephiroth: "Chokmah-Binah"
+  he:
+    letter: "ה"
+    name: "He"
+    number: 5
+    meaning: "Window"
+    type: "Simple"
+    zodiac: "Aries"
+    tarot: "The Emperor"
+    path: 15
+    sephiroth: "Chokmah-Tiphareth"
+  vav:
+    letter: "ו"
+    name: "Vav"
+    number: 6
+    meaning: "Nail"
+    type: "Simple"
+    zodiac: "Taurus"
+    tarot: "The Hierophant"
+    path: 16
+    sephiroth: "Chesed-Geburah"
+  zayin:
+    letter: "ז"
+    name: "Zayin"
+    number: 7
+    meaning: "Sword"
+    type: "Simple"
+    zodiac: "Gemini"
+    tarot: "The Lovers"
+    path: 17
+    sephiroth: "Binah-Tiphareth"
+  chet:
+    letter: "ח"
+    name: "Chet"
+    number: 8
+    meaning: "Fence"
+    type: "Simple"
+    zodiac: "Cancer"
+    tarot: "The Chariot"
+    path: 18
+    sephiroth: "Geburah-Chesed"
+  tet:
+    letter: "ט"
+    name: "Tet"
+    number: 9
+    meaning: "Serpent"
+    type: "Simple"
+    zodiac: "Leo"
+    tarot: "Lust/Strength"
+    path: 19
+    sephiroth: "Chesed-Geburah"
+  yod:
+    letter: "י"
+    name: "Yod"
+    number: 10
+    meaning: "Hand"
+    type: "Simple"
+    zodiac: "Virgo"
+    tarot: "The Hermit"
+    path: 20
+    sephiroth: "Chesed-Tiphareth"
+  kaf:
+    letter: "כ"
+    name: "Kaf"
+    number: 20
+    meaning: "Palm"
+    type: "Double"
+    planet: "Jupiter"
+    tarot: "Wheel of Fortune"
+    path: 21
+    sephiroth: "Chesed-Netzach"
+  lamed:
+    letter: "ל"
+    name: "Lamed"
+    number: 30
+    meaning: "Ox-goad"
+    type: "Simple"
+    zodiac: "Libra"
+    tarot: "Justice/Adjustment"
+    path: 22
+    sephiroth: "Geburah-Tiphareth"
+  mem:
+    letter: "מ"
+    name: "Mem"
+    number: 40
+    meaning: "Water"
+    type: "Mother"
+    element: "Water"
+    tarot: "The Hanged Man"
+    path: 23
+    sephiroth: "Geburah-Hod"
+  nun:
+    letter: "נ"
+    name: "Nun"
+    number: 50
+    meaning: "Fish"
+    type: "Simple"
+    zodiac: "Scorpio"
+    tarot: "Death"
+    path: 24
+    sephiroth: "Tiphareth-Netzach"
+  samekh:
+    letter: "ס"
+    name: "Samekh"
+    number: 60
+    meaning: "Tent Peg"
+    type: "Simple"
+    zodiac: "Sagittarius"
+    tarot: "Art/Temperance"
+    path: 25
+    sephiroth: "Tiphareth-Yesod"
+  ayin:
+    letter: "ע"
+    name: "Ayin"
+    number: 70
+    meaning: "Eye"
+    type: "Simple"
+    zodiac: "Capricorn"
+    tarot: "The Devil"
+    path: 26
+    sephiroth: "Tiphareth-Hod"
+  pe:
+    letter: "פ"
+    name: "Pe"
+    number: 80
+    meaning: "Mouth"
+    type: "Double"
+    planet: "Mars"
+    tarot: "The Tower"
+    path: 27
+    sephiroth: "Hod-Netzach"
+  tzaddi:
+    letter: "צ"
+    name: "Tzaddi"
+    number: 90
+    meaning: "Fish-hook"
+    type: "Simple"
+    zodiac: "Aquarius"
+    tarot: "The Star"
+    path: 28
+    sephiroth: "Yesod-Netzach"
+  qof:
+    letter: "ק"
+    name: "Qof"
+    number: 100
+    meaning: "Back of the Head"
+    type: "Simple"
+    zodiac: "Pisces"
+    tarot: "The Moon"
+    path: 29
+    sephiroth: "Netzach-Malkuth"
+  resh:
+    letter: "ר"
+    name: "Resh"
+    number: 200
+    meaning: "Head"
+    type: "Double"
+    planet: "Sun"
+    tarot: "The Sun"
+    path: 30
+    sephiroth: "Yesod-Hod"
+  shin:
+    letter: "ש"
+    name: "Shin"
+    number: 300
+    meaning: "Tooth"
+    type: "Mother"
+    element: "Fire"
+    tarot: "The Aeon/Judgement"
+    path: 31
+    sephiroth: "Hod-Malkuth"
+  tav:
+    letter: "ת"
+    name: "Tav"
+    number: 400
+    meaning: "Cross"
+    type: "Double"
+    planet: "Saturn"
+    tarot: "The Universe/World"
+    path: 32
+    sephiroth: "Yesod-Malkuth"
+
+# ═══════════════════════════════════════════
+# PLANETARY CORRESPONDENCES
+# ═══════════════════════════════════════════
+
+planets:
+  saturn:
+    number: 3
+    day: "Saturday"
+    metal: "Lead"
+    color: "Black/Indigo"
+    hebrew: "Tav"
+    sephirah: "Binah (understanding)"
+    tarot: "The Universe"
+  jupiter:
+    number: 4
+    day: "Thursday"
+    metal: "Tin"
+    color: "Blue/Violet"
+    hebrew: "Kaf"
+    sephirah: "Chesed (mercy)"
+    tarot: "Wheel of Fortune"
+  mars:
+    number: 5
+    day: "Tuesday"
+    metal: "Iron"
+    color: "Red/Scarlet"
+    hebrew: "Pe"
+    sephirah: "Geburah (severity)"
+    tarot: "The Tower"
+  sun:
+    number: 6
+    day: "Sunday"
+    metal: "Gold"
+    color: "Yellow/Gold"
+    hebrew: "Resh"
+    sephirah: "Tiphareth (beauty)"
+    tarot: "The Sun"
+  venus:
+    number: 7
+    day: "Friday"
+    metal: "Copper"
+    color: "Green/Emerald"
+    hebrew: "Daleth"
+    sephirah: "Netzach (victory)"
+    tarot: "The Empress"
+  mercury:
+    number: 8
+    day: "Wednesday"
+    metal: "Mercury/Quicksilver"
+    color: "Orange/Yellow"
+    hebrew: "Beth"
+    sephirah: "Hod (splendor)"
+    tarot: "The Magician"
+  moon:
+    number: 9
+    day: "Monday"
+    metal: "Silver"
+    color: "Blue/Silver"
+    hebrew: "Gimel"
+    sephirah: "Yesod (foundation)"
+    tarot: "The High Priestess"
+
+# ═══════════════════════════════════════════
+# ELEMENTAL CORRESPONDENCES
+# ═══════════════════════════════════════════
+
+elements:
+  fire:
+    direction: "South"
+    season: "Summer"
+    archangel: "Michael"
+    cherub: "Lion"
+    tarot_suit: "Wands"
+    hebrew_mother: "Shin"
+    color_king: "Red/Scarlet"
+    color_queen: "Crimson"
+    chakra: "Manipura"
+    tattva: "Tejas (Red Triangle)"
+    alchemical: "Sulphur"
+  water:
+    direction: "West"
+    season: "Autumn"
+    archangel: "Gabriel"
+    cherub: "Eagle"
+    tarot_suit: "Cups"
+    hebrew_mother: "Mem"
+    color_king: "Blue"
+    color_queen: "Deep Blue"
+    chakra: "Svadhisthana"
+    tattva: "Apas (Silver Crescent)"
+    alchemical: "Mercury"
+  air:
+    direction: "East"
+    season: "Spring"
+    archangel: "Raphael"
+    cherub: "Man/Angel"
+    tarot_suit: "Swords"
+    hebrew_mother: "Aleph"
+    color_king: "Yellow"
+    color_queen: "Sky Blue"
+    chakra: "Anahata"
+    tattva: "Vayu (Blue Circle)"
+    alchemical: "Salt"
+  earth:
+    direction: "North"
+    season: "Winter"
+    archangel: "Auriel/Uriel"
+    cherub: "Bull"
+    tarot_suit: "Pentacles"
+    hebrew_mother: "N/A (Earth is the receptacle)"
+    color_king: "Black/Indigo"
+    color_queen: "Green/Brown"
+    chakra: "Muladhara"
+    tattva: "Prithivi (Yellow Square)"
+    alchemical: "The Philosopher's Stone"
+
+# ═══════════════════════════════════════════
+# ELEMENTAL DIGNITIES
+# ═══════════════════════════════════════════
+
+elemental_dignities:
+  fire_fire:
+    relationship: "friendly_excess"
+    description: "Fire with Fire — excessively strong. Amplified to the point of burnout or obsession. Great energy but potentially unbalanced."
+  water_water:
+    relationship: "friendly_excess"
+    description: "Water with Water — excessively receptive. Amplified emotion, deep intuition, but potentially stagnant or overwhelming."
+  air_air:
+    relationship: "friendly_excess"
+    description: "Air with Air — excessively mental. Sharp intellect but potentially detached, over-analytical, or scattered."
+  earth_earth:
+    relationship: "friendly_excess"
+    description: "Earth with Earth — excessively material. Stability but potentially rigid, materialistic, or stuck."
+  fire_air:
+    relationship: "friendly"
+    description: "Fire with Air — mutually friendly. Both are active elements. Creative energy supported by intellect. Inspiration combined with communication."
+  air_fire:
+    relationship: "friendly"
+    description: "Air with Fire — mutually friendly. Intellect supports creative impulse. Thought and will working in harmony."
+  water_earth:
+    relationship: "friendly"
+    description: "Water with Earth — mutually friendly. Both are passive/receptive elements. Emotion supported by material foundation. Feeling grounded in practical reality."
+  earth_water:
+    relationship: "friendly"
+    description: "Earth with Water — mutually friendly. Material form supported by emotional depth. The fertile soil receiving the rain."
+  fire_water:
+    relationship: "hostile"
+    description: "Fire with Water — hostile/opposing. Will conflicts with feeling. Passion and emotion in tension. One must dominate — the stronger element prevails."
+  water_fire:
+    relationship: "hostile"
+    description: "Water with Fire — hostile/opposing. Feeling conflicts with will. Emotion dampens passion. The element with more cards or stronger position dominates."
+  air_earth:
+    relationship: "hostile"
+    description: "Air with Earth — hostile/opposing. Intellect conflicts with materiality. Thought and practicality in tension. Mind and body at odds."
+  earth_air:
+    relationship: "hostile"
+    description: "Earth with Air — hostile/opposing. Materiality conflicts with intellect. Practical concerns limit thought. The body resists the mind."
+  fire_earth:
+    relationship: "neutral"
+    description: "Fire with Earth — neither friendly nor hostile. Will acting upon matter. Creation meeting manifestation. Moderating influence."
+  earth_fire:
+    relationship: "neutral"
+    description: "Earth with Fire — neutral. Matter receiving will. Material conditions shaped by creative force. Practical application of inspiration."
+  water_air:
+    relationship: "neutral"
+    description: "Water with Air — neither friendly nor hostile. Emotion meeting intellect. Feeling informing thought. Rain and wind together."
+  air_water:
+    relationship: "neutral"
+    description: "Air with Water — neutral. Intellect meeting emotion. Thought shaped by feeling. The wind over the waters."
+
+# ═══════════════════════════════════════════
+# TREE OF LIFE PATHS
+# ═══════════════════════════════════════════
+
+tree_paths:
+  11:
+    hebrew: "Aleph"
+    connects: "Kether - Chokmah"
+    tarot: "The Fool"
+    element: "Air"
+  12:
+    hebrew: "Beth"
+    connects: "Kether - Binah"
+    tarot: "The Magician"
+    planet: "Mercury"
+  13:
+    hebrew: "Gimel"
+    connects: "Kether - Tiphareth"
+    tarot: "The High Priestess"
+    planet: "Moon"
+  14:
+    hebrew: "Daleth"
+    connects: "Chokmah - Binah"
+    tarot: "The Empress"
+    planet: "Venus"
+  15:
+    hebrew: "He"
+    connects: "Chokmah - Tiphareth"
+    tarot: "The Emperor"
+    zodiac: "Aries"
+  16:
+    hebrew: "Vav"
+    connects: "Chesed - Geburah"
+    tarot: "The Hierophant"
+    zodiac: "Taurus"
+  17:
+    hebrew: "Zayin"
+    connects: "Binah - Tiphareth"
+    tarot: "The Lovers"
+    zodiac: "Gemini"
+  18:
+    hebrew: "Chet"
+    connects: "Geburah - Chesed"
+    tarot: "The Chariot"
+    zodiac: "Cancer"
+  19:
+    hebrew: "Tet"
+    connects: "Chesed - Geburah"
+    tarot: "Lust/Strength"
+    zodiac: "Leo"
+  20:
+    hebrew: "Yod"
+    connects: "Chesed - Tiphareth"
+    tarot: "The Hermit"
+    zodiac: "Virgo"
+  21:
+    hebrew: "Kaf"
+    connects: "Chesed - Netzach"
+    tarot: "Wheel of Fortune"
+    planet: "Jupiter"
+  22:
+    hebrew: "Lamed"
+    connects: "Geburah - Tiphareth"
+    tarot: "Justice/Adjustment"
+    zodiac: "Libra"
+  23:
+    hebrew: "Mem"
+    connects: "Geburah - Hod"
+    tarot: "The Hanged Man"
+    element: "Water"
+  24:
+    hebrew: "Nun"
+    connects: "Tiphareth - Netzach"
+    tarot: "Death"
+    zodiac: "Scorpio"
+  25:
+    hebrew: "Samekh"
+    connects: "Tiphareth - Yesod"
+    tarot: "Art/Temperance"
+    zodiac: "Sagittarius"
+  26:
+    hebrew: "Ayin"
+    connects: "Tiphareth - Hod"
+    tarot: "The Devil"
+    zodiac: "Capricorn"
+  27:
+    hebrew: "Pe"
+    connects: "Hod - Netzach"
+    tarot: "The Tower"
+    planet: "Mars"
+  28:
+    hebrew: "Tzaddi"
+    connects: "Yesod - Netzach"
+    tarot: "The Star"
+    zodiac: "Aquarius"
+  29:
+    hebrew: "Qof"
+    connects: "Netzach - Malkuth"
+    tarot: "The Moon"
+    zodiac: "Pisces"
+  30:
+    hebrew: "Resh"
+    connects: "Yesod - Hod"
+    tarot: "The Sun"
+    planet: "Sun"
+  31:
+    hebrew: "Shin"
+    connects: "Hod - Malkuth"
+    tarot: "The Aeon/Judgement"
+    element: "Fire"
+  32:
+    hebrew: "Tav"
+    connects: "Yesod - Malkuth"
+    tarot: "The Universe/World"
+    planet: "Saturn"
+
+# ═══════════════════════════════════════════
+# DECANATE RULERS (36 Decans)
+# ═══════════════════════════════════════════
+
+decanate_rulers:
+  aries_1: { sign: "Aries", decan: 1, ruler: "Mars", card: "2 of Wands" }
+  aries_2: { sign: "Aries", decan: 2, ruler: "Sun", card: "3 of Wands" }
+  aries_3: { sign: "Aries", decan: 3, ruler: "Venus", card: "4 of Wands" }
+  leo_1: { sign: "Leo", decan: 1, ruler: "Saturn", card: "5 of Wands" }
+  leo_2: { sign: "Leo", decan: 2, ruler: "Jupiter", card: "6 of Wands" }
+  leo_3: { sign: "Leo", decan: 3, ruler: "Mars", card: "7 of Wands" }
+  sagittarius_1: { sign: "Sagittarius", decan: 1, ruler: "Jupiter", card: "8 of Wands" }
+  sagittarius_2: { sign: "Sagittarius", decan: 2, ruler: "Moon", card: "9 of Wands" }
+  sagittarius_3: { sign: "Sagittarius", decan: 3, ruler: "Saturn", card: "10 of Wands" }
+  cancer_1: { sign: "Cancer", decan: 1, ruler: "Venus", card: "2 of Cups" }
+  cancer_2: { sign: "Cancer", decan: 2, ruler: "Mercury", card: "3 of Cups" }
+  cancer_3: { sign: "Cancer", decan: 3, ruler: "Moon", card: "4 of Cups" }
+  scorpio_1: { sign: "Scorpio", decan: 1, ruler: "Mars", card: "5 of Cups" }
+  scorpio_2: { sign: "Scorpio", decan: 2, ruler: "Sun", card: "6 of Cups" }
+  scorpio_3: { sign: "Scorpio", decan: 3, ruler: "Venus", card: "7 of Cups" }
+  pisces_1: { sign: "Pisces", decan: 1, ruler: "Saturn", card: "8 of Cups" }
+  pisces_2: { sign: "Pisces", decan: 2, ruler: "Jupiter", card: "9 of Cups" }
+  pisces_3: { sign: "Pisces", decan: 3, ruler: "Mars", card: "10 of Cups" }
+  libra_1: { sign: "Libra", decan: 1, ruler: "Moon", card: "2 of Swords" }
+  libra_2: { sign: "Libra", decan: 2, ruler: "Saturn", card: "3 of Swords" }
+  libra_3: { sign: "Libra", decan: 3, ruler: "Mercury", card: "4 of Swords" }
+  aquarius_1: { sign: "Aquarius", decan: 1, ruler: "Saturn", card: "5 of Swords" }
+  aquarius_2: { sign: "Aquarius", decan: 2, ruler: "Mercury", card: "6 of Swords" }
+  aquarius_3: { sign: "Aquarius", decan: 3, ruler: "Moon", card: "7 of Swords" }
+  gemini_1: { sign: "Gemini", decan: 1, ruler: "Jupiter", card: "8 of Swords" }
+  gemini_2: { sign: "Gemini", decan: 2, ruler: "Mars", card: "9 of Swords" }
+  gemini_3: { sign: "Gemini", decan: 3, ruler: "Sun", card: "10 of Swords" }
+  capricorn_1: { sign: "Capricorn", decan: 1, ruler: "Jupiter", card: "2 of Pentacles" }
+  capricorn_2: { sign: "Capricorn", decan: 2, ruler: "Mars", card: "3 of Pentacles" }
+  capricorn_3: { sign: "Capricorn", decan: 3, ruler: "Sun", card: "4 of Pentacles" }
+  taurus_1: { sign: "Taurus", decan: 1, ruler: "Mercury", card: "5 of Pentacles" }
+  taurus_2: { sign: "Taurus", decan: 2, ruler: "Moon", card: "6 of Pentacles" }
+  taurus_3: { sign: "Taurus", decan: 3, ruler: "Saturn", card: "7 of Pentacles" }
+  virgo_1: { sign: "Virgo", decan: 1, ruler: "Sun", card: "8 of Pentacles" }
+  virgo_2: { sign: "Virgo", decan: 2, ruler: "Venus", card: "9 of Pentacles" }
+  virgo_3: { sign: "Virgo", decan: 3, ruler: "Mercury", card: "10 of Pentacles" }
+
+# ═══════════════════════════════════════════
+# TETRAGRAMMATON CORRESPONDENCES
+# ═══════════════════════════════════════════
+
+tetragrammaton:
+  yod:
+    letter: "י"
+    meaning: "The Father, the Primal Will"
+    court_card: "Knight"
+    element_principle: "Active / Masculine"
+    sephiroth: "Chokmah"
+    kabbalistic_world: "Atziluth (Archetypal)"
+  he:
+    letter: "ה"
+    meaning: "The Mother, the Reflective Understanding"
+    court_card: "Queen"
+    element_principle: "Passive / Feminine"
+    sephiroth: "Binah"
+    kabbalistic_world: "Briah (Creative)"
+  vav:
+    letter: "ו"
+    meaning: "The Son, the Sustaining Force"
+    court_card: "Prince"
+    element_principle: "Active / Mediating"
+    sephiroth: "Tiphareth (and microprosopus)"
+    kabbalistic_world: "Yetzirah (Formative)"
+  he_final:
+    letter: "ה"
+    meaning: "The Daughter, the Materialization"
+    court_card: "Princess"
+    element_principle: "Passive / Material"
+    sephiroth: "Malkuth"
+    kabbalistic_world: "Assiah (Material)"
+
+# ═══════════════════════════════════════════
+# GD COLOR SCALES (Four Scales of Color)
+# ═══════════════════════════════════════════
+
+color_scales:
+  king_scale:
+    name: "King Scale (Atziluth)"
+    description: "The Archetypal World — the highest, most spiritual expression. Used for the Spirit of the element."
+    purpose: "Kether-level color, the pure spiritual emanation."
+  queen_scale:
+    name: "Queen Scale (Briah)"
+    description: "The Creative World — the archangelic level. The formative blueprint."
+    purpose: "Chokmah/Binah level color, the creative template."
+  prince_scale:
+    name: "Prince Scale (Yetzirah)"
+    description: "The Formative World — the angelic level. The astral pattern."
+    purpose: "Tiphareth level color, the pattern that takes form."
+  princess_scale:
+    name: "Princess Scale (Assiah)"
+    description: "The Material World — the physical manifestation. The densest expression."
+    purpose: "Malkuth level color, the materialised appearance."

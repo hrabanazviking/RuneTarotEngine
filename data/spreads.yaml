@@ -1,0 +1,378 @@
+# RuneTarot — Spread Definitions
+# All spread layouts with GD-informed position meanings
+
+spreads:
+  celtic_cross:
+    name: "Celtic Cross"
+    description: "The classic ten-card spread, one of the most widely used in tarot. Richly layered with position interactions — the Crossing card modifies the Significator, the staff reveals the temporal flow, and the column reveals inner and outer influences."
+    tradition: "Celtic / A.E. Waite"
+    card_count: 10
+    positions:
+      - number: 1
+        name: "The Significator"
+        meaning: "The present situation — what surrounds the querent right now. The central concern or state of being."
+        gd_meaning: "The Malkuth position — the materialised present. The point in Assiah where the querent stands. The card here represents the current material manifestation of the querent's circumstances."
+        row: 2
+        col: 2
+      - number: 2
+        name: "The Crossing"
+        meaning: "The obstacle, challenge, or opposing force that crosses the querent. What must be dealt with or acknowledged."
+        gd_meaning: "The Qliphothic influence — the shadow or opposition that arises from imbalance. The Crossing card reveals the specific force that opposes the querent's current movement, often an unresolved element from within."
+        row: 2
+        col: 2
+        crosses: 1
+      - number: 3
+        name: "The Crown"
+        meaning: "What is above — aspirations, ideals, what the querent is reaching toward or what is best that may happen."
+        gd_meaning: "The Kether influence — the highest potential of the situation. The Crown reveals what divine will or spiritual aspiration is operating in the situation. The ideal toward which the querent may ascend."
+        row: 0
+        col: 2
+      - number: 4
+        name: "The Below"
+        meaning: "What is beneath — foundations, roots, what has brought the querent to this point. The subconscious basis."
+        gd_meaning: "The Yesod influence — the foundation and subconscious root. The Below reveals the hidden basis of the situation, the stored patterns and past experiences that support the present."
+        row: 4
+        col: 2
+      - number: 5
+        name: "The Behind"
+        meaning: "What is behind — the recent past, what is moving away from the querent, what has already transpired."
+        gd_meaning: "The path already traversed — the forces that have been experienced and are now receding. The Behind reveals what the querent has learned or endured and is now leaving behind."
+        row: 2
+        col: 0
+      - number: 6
+        name: "The Before"
+        meaning: "What is before — the near future, what is approaching, what the querent is moving toward."
+        gd_meaning: "The path yet to come — the forces that are approaching manifestation. The Before reveals the immediate future that is already in motion based on current trajectories."
+        row: 2
+        col: 4
+      - number: 7
+        name: "Self"
+        meaning: "The querent's attitude, self-image, and inner state. How the querent relates to the situation."
+        gd_meaning: "The Tiphareth position — the Self as the centre of the reading. This reveals the querent's inner balance or imbalance, their central identity in relation to the question."
+        row: 2
+        col: 6
+      - number: 8
+        name: "Environment"
+        meaning: "External influences — other people, social circumstances, the querent's environment and surroundings."
+        gd_meaning: "The external forces — the Netzach/Hod axis of influence. The Environment reveals the surrounding forces that shape the situation from outside: people, places, social and material conditions."
+        row: 1
+        col: 6
+      - number: 9
+        name: "Hopes and Fears"
+        meaning: "What the querent hopes for or fears. Inner desires and anxieties that colour the reading."
+        gd_meaning: "The Yesod/Malkuth axis of the staff — the inner landscape of desire and dread. Hopes and Fears reveals the subconscious currents that pull the querent toward or away from the outcome."
+        row: 3
+        col: 6
+      - number: 10
+        name: "Outcome"
+        meaning: "The final result — the culmination of all the forces shown in the reading. The most likely outcome if current patterns continue."
+        gd_meaning: "The final manifestation — the Malkuth of the reading, the materialised result of all the spiritual, mental, and emotional forces shown. The Outcome is not fixed fate but the trajectory of the Wyrd as it currently stands."
+        row: 4
+        col: 6
+
+  tree_of_life:
+    name: "Tree of Life"
+    description: "A ten-card spread mapped onto the ten Sephiroth of the Qabalistic Tree of Life. Each position corresponds to a divine emanation, from Kether (the Crown) to Malkuth (the Kingdom). This spread reveals the spiritual architecture underlying the question."
+    tradition: "Golden Dawn / Qabalistic"
+    card_count: 10
+    positions:
+      - number: 1
+        name: "Kether — The Crown"
+        meaning: "The ultimate spiritual potential of the situation. The highest divine intention behind the question."
+        gd_meaning: "Kether — the first emanation, the point of infinite potential. The card here reveals the highest spiritual purpose operating in the situation, the divine will that underlies the manifestation."
+        row: 0
+        col: 2
+      - number: 2
+        name: "Chokmah — Wisdom"
+        meaning: "The creative, masculine impulse. The initial force or wisdom that drives the situation forward."
+        gd_meaning: "Chokmah — the second emanation, the Father principle. Active, expanding, creative wisdom. The card here reveals the dynamic force that initiated this pattern."
+        row: 1
+        col: 1
+      - number: 3
+        name: "Binah — Understanding"
+        meaning: "The receptive, feminine form. The structure and understanding that contains and gives shape to the creative force."
+        gd_meaning: "Binah — the third emanation, the Mother principle. Receptive, containing, form-giving understanding. The card here reveals the form and structure that contains the situation."
+        row: 1
+        col: 3
+      - number: 4
+        name: "Chesed — Mercy"
+        meaning: "Expansion, benevolence, and the flowing forth of blessing. What is given freely in this situation."
+        gd_meaning: "Chesed — the fourth emanation, the flow of mercy and expansion. The card here reveals the blessings, gifts, and expansive forces available in the situation."
+        row: 2
+        col: 1
+      - number: 5
+        name: "Geburah — Severity"
+        meaning: "Restriction, discipline, and necessary limitation. What must be confronted or restrained."
+        gd_meaning: "Geburah — the fifth emanation, the force of severity and restriction. The card here reveals the necessary discipline, the challenges, and the restricting forces that shape the situation."
+        row: 2
+        col: 3
+      - number: 6
+        name: "Tiphareth — Beauty"
+        meaning: "The central balance and harmony. The heart of the matter, the point of sacrifice and synthesis."
+        gd_meaning: "Tiphareth — the sixth emanation, the centre of the Tree. Beauty, balance, and the sacrificed Self. The card here reveals the central truth of the situation, the heart that must be understood."
+        row: 3
+        col: 2
+      - number: 7
+        name: "Netzach — Victory"
+        meaning: "Emotion, desire, and the vital force of life. What is desired, felt, and pursued with passion."
+        gd_meaning: "Netzach — the seventh emanation, the realm of feeling and desire. The card here reveals the emotional currents, the desires, and the vital forces that animate the situation."
+        row: 4
+        col: 1
+      - number: 8
+        name: "Hod — Splendor"
+        meaning: "Intellect, communication, and the rational mind. What is thought, said, and structured through reason."
+        gd_meaning: "Hod — the eighth emanation, the realm of intellect and form. The card here reveals the mental patterns, communications, and intellectual structures that inform the situation."
+        row: 4
+        col: 3
+      - number: 9
+        name: "Yesod — Foundation"
+        meaning: "The subconscious, the astral plane, and the foundational patterns. What underlies the visible situation."
+        gd_meaning: "Yesod — the ninth emanation, the foundation of the astral world. The card here reveals the hidden patterns, the subconscious currents, and the foundational imagery that supports the visible situation."
+        row: 5
+        col: 2
+      - number: 10
+        name: "Malkuth — The Kingdom"
+        meaning: "The material manifestation, the final result. How all the above forces manifest in physical reality."
+        gd_meaning: "Malkuth — the tenth emanation, the material world. The card here reveals the final manifestation, the actual outcome as it appears in Assiah — the material world of action."
+        row: 6
+        col: 2
+
+  three_card:
+    name: "Three Card"
+    description: "The simplest and most versatile spread. Three cards read as Past-Present-Future, or Situation-Action-Outcome, or any other triadic structure the reader prefers."
+    tradition: "Universal"
+    card_count: 3
+    positions:
+      - number: 1
+        name: "Past"
+        meaning: "What has been — the events, influences, and forces that have led to the current situation."
+        gd_meaning: "The Chokmah position — the initiating force that has already passed into action. What has been set in motion."
+        row: 0
+        col: 0
+      - number: 2
+        name: "Present"
+        meaning: "What is — the current state, the immediate situation as it stands now."
+        gd_meaning: "The Tiphareth position — the present moment of balance and choice. The heart of the matter as it stands."
+        row: 0
+        col: 2
+      - number: 3
+        name: "Future"
+        meaning: "What will be — the trajectory of events based on current patterns and forces."
+        gd_meaning: "The Malkuth position — the manifested result. The future as it is currently forming based on past and present."
+        row: 0
+        col: 4
+
+  zodiac_wheel:
+    name: "Zodiac Wheel"
+    description: "A twelve-card spread mapped onto the twelve astrological houses. Each card represents a domain of life, providing a comprehensive overview of the querent's situation across all areas."
+    tradition: "Astrological"
+    card_count: 12
+    positions:
+      - number: 1
+        name: "1st House — Self"
+        meaning: "Identity, appearance, personality, and how the querent presents to the world."
+        gd_meaning: "The Ascendant — the rising force of the Self. The mask of personality through which the soul expresses. Aries/Mars energy."
+        row: 2
+        col: 2
+      - number: 2
+        name: "2nd House — Possessions"
+        meaning: "Material resources, finances, values, and self-worth."
+        gd_meaning: "The Taurean house — material security and the value of things. What the querent possesses and what possesses them. Venus/Earth energy."
+        row: 3
+        col: 1
+      - number: 3
+        name: "3rd House — Communication"
+        meaning: "Communication, siblings, short journeys, and everyday interactions."
+        gd_meaning: "The Geminian house — the realm of thought and speech, local movement and exchange. Mercury/Air energy."
+        row: 3
+        col: 3
+      - number: 4
+        name: "4th House — Home"
+        meaning: "Home, family, roots, and the foundation of the self."
+        gd_meaning: "The Cancerian house — the root of being, the ancestral foundation, the innermost private self. Moon/Water energy."
+        row: 4
+        col: 2
+      - number: 5
+        name: "5th House — Creativity"
+        meaning: "Creativity, romance, children, pleasure, and self-expression."
+        gd_meaning: "The Leonine house — the expression of the divine spark through creation, play, and love. Sun/Fire energy."
+        row: 3
+        col: 4
+      - number: 6
+        name: "6th House — Service"
+        meaning: "Health, daily work, service, and routine obligations."
+        gd_meaning: "The Virgoan house — the practical application of the self in service. The discipline of daily practice. Mercury/Earth energy."
+        row: 2
+        col: 4
+      - number: 7
+        name: "7th House — Partnership"
+        meaning: "Relationships, partnerships, marriage, and one-on-one connections."
+        gd_meaning: "The Libran house — the mirror of the self in the Other. The sacred covenant of partnership. Venus/Air energy."
+        row: 1
+        col: 4
+      - number: 8
+        name: "8th House — Transformation"
+        meaning: "Death, rebirth, shared resources, sexuality, and deep transformation."
+        gd_meaning: "The Scorpionic house — the alchemical transformation through death and rebirth. The shared resources of body, spirit, and wealth. Mars-Pluto/Water energy."
+        row: 0
+        col: 4
+      - number: 9
+        name: "9th House — Philosophy"
+        meaning: "Higher learning, philosophy, religion, long journeys, and the search for meaning."
+        gd_meaning: "The Sagittarian house — the quest for truth and expanded consciousness. The spiritual journey. Jupiter/Fire energy."
+        row: 0
+        col: 3
+      - number: 10
+        name: "10th House — Status"
+        meaning: "Career, public standing, authority, and the role in society."
+        gd_meaning: "The Capricornian house — the summit of achievement, the public self, the karmic duty. Saturn/Earth energy."
+        row: 0
+        col: 1
+      - number: 11
+        name: "11th House — Community"
+        meaning: "Friends, groups, hopes, wishes, and social networks."
+        gd_meaning: "The Aquarian house — the collective, the ideal community, the brotherhood of humanity. Uranus-Saturn/Air energy."
+        row: 1
+        col: 0
+      - number: 12
+        name: "12th House — Subconscious"
+        meaning: "The subconscious, hidden enemies, self-undoing, karma, and isolation."
+        gd_meaning: "The Piscean house — the dissolution of the ego, the karmic storehouse, the prison and the monastery. Neptune-Jupiter/Water energy."
+        row: 2
+        col: 0
+
+  single_card:
+    name: "Single Card"
+    description: "A single card draw for daily guidance, a quick answer, or a meditative focus."
+    tradition: "Universal"
+    card_count: 1
+    positions:
+      - number: 1
+        name: "The Card"
+        meaning: "The central message or energy for the querent in this moment."
+        gd_meaning: "The oracle of the moment — the single card speaks as the voice of the divine for this particular question at this particular time. The entire Tree of Life compressed into one emanation."
+        row: 0
+        col: 0
+
+  relationship:
+    name: "Relationship Spread"
+    description: "A seven-card spread examining the dynamics between two people. Reveals each person's position, the foundation of the relationship, past influences, present dynamics, future direction, and advice."
+    tradition: "Modern / Relational"
+    card_count: 7
+    positions:
+      - number: 1
+        name: "Querent's Position"
+        meaning: "How the querent currently stands in the relationship. Their energy, attitude, and needs."
+        gd_meaning: "The first pillar — the querent's position on the Tree. Their current sephirothic station in the relationship dynamic."
+        row: 1
+        col: 0
+      - number: 2
+        name: "Partner's Position"
+        meaning: "How the partner currently stands in the relationship. Their energy, attitude, and needs."
+        gd_meaning: "The opposite pillar — the partner's position on the Tree. The complementary (or conflicting) sephirothic station."
+        row: 1
+        col: 4
+      - number: 3
+        name: "Foundation"
+        meaning: "The foundation of the relationship. What brought you together, the bedrock of the connection."
+        gd_meaning: "The Yesod of the relationship — the foundational pattern, the subconscious bond, the root of the connection."
+        row: 2
+        col: 2
+      - number: 4
+        name: "Past Influences"
+        meaning: "Past events and influences that have shaped the relationship. What has been experienced together."
+        gd_meaning: "The past paths of the relationship — the trails already walked, the experiences that have formed the current dynamic."
+        row: 0
+        col: 2
+      - number: 5
+        name: "Present Dynamics"
+        meaning: "The current active dynamics between the two people. What is happening now."
+        gd_meaning: "The Tiphareth of the relationship — the current heart of the connection, the active balance or imbalance between the partners."
+        row: 3
+        col: 2
+      - number: 6
+        name: "Future Direction"
+        meaning: "The trajectory of the relationship. Where the current dynamics are leading."
+        gd_meaning: "The path ahead — the forces that are already in motion and will shape the future of the relationship."
+        row: 4
+        col: 2
+      - number: 7
+        name: "Advice"
+        meaning: "Guidance for the relationship. What would serve the highest good of both parties."
+        gd_meaning: "The Daath position — the hidden knowledge that, if embraced, would transform the relationship. The counsel of the higher self for both partners."
+        row: 5
+        col: 2
+
+  past_life:
+    name: "Past Life Spread"
+    description: "A five-card spread exploring karmic patterns from previous incarnations that influence the current life. Not about verifying literal past lives but about understanding recurring soul patterns."
+    tradition: "Esoteric / Karmic"
+    card_count: 5
+    positions:
+      - number: 1
+        name: "Past Life Identity"
+        meaning: "The nature of the previous incarnation. The role, character, or energy of the past self."
+        gd_meaning: "The Yesodic imprint — the astral pattern of the previous incarnation that has been carried into the current life."
+        row: 0
+        col: 2
+      - number: 2
+        name: "Past Life Lesson"
+        meaning: "The primary lesson or challenge of the previous incarnation. What the soul was working on."
+        gd_meaning: "The Geburah of the past incarnation — the severity and challenge that shaped the soul's learning."
+        row: 1
+        col: 0
+      - number: 3
+        name: "Karmic Carry-Over"
+        meaning: "What has been carried forward from the past life into this one. Unresolved patterns or gifts."
+        gd_meaning: "The karmic thread — the specific pattern that has not been resolved and continues to manifest. The Yesod-Malkuth bridge across incarnations."
+        row: 1
+        col: 4
+      - number: 4
+        name: "Current Life Challenge"
+        meaning: "How the karmic pattern manifests in the current life. The specific challenge it creates now."
+        gd_meaning: "The present Geburah — how the unresolved past manifests as challenge in the current incarnation. The severity that demands resolution."
+        row: 2
+        col: 2
+      - number: 5
+        name: "Karmic Resolution"
+        meaning: "The path to resolving the karmic pattern. What the soul needs to do to complete this cycle."
+        gd_meaning: "The path to Tiphareth — the way of beauty and balance that resolves the karmic debt. The resolution that brings the soul into harmony."
+        row: 3
+        col: 2
+
+  opening_of_the_key:
+    name: "Opening of the Key"
+    description: "The Golden Dawn's own method of tarot divination. A complex procedure involving four operations of counting through the deck, pairing cards, and assessing elemental dignities. This is the authentic GD divination method, not a modern spread."
+    tradition: "Golden Dawn"
+    card_count: 5
+    positions:
+      - number: 1
+        name: "First Operation — The Significator"
+        meaning: "The operation which signifies the matter or question. Determines the overall nature of the reading."
+        gd_meaning: "The first operation sets the tone by selecting the significator — the card representing the querent. The counting and pairing in this operation reveal the immediate circumstances."
+        row: 0
+        col: 0
+      - number: 2
+        name: "Second Operation — Development"
+        meaning: "The operation which develops or amplifies the reading. Shows the hidden influences and development of forces."
+        gd_meaning: "The second operation explores the developing forces — what is growing, what is waning. The counting and pairing here reveal the hidden currents beneath the surface."
+        row: 0
+        col: 1
+      - number: 3
+        name: "Third Operation — Ties"
+        meaning: "The operation which shows the connexions, links, and relationships between the forces already revealed."
+        gd_meaning: "The third operation reveals the web of relationships — how the various forces connect, support, or oppose each other. The elemental dignities become critical here."
+        row: 0
+        col: 2
+      - number: 4
+        name: "Fourth Operation — Result"
+        meaning: "The operation which brings the whole matter to a conclusion. The final outcome of all forces combined."
+        gd_meaning: "The fourth operation brings the reading to its culmination — the Malkuth of the divination. The final pairing and counting reveals the likely outcome."
+        row: 0
+        col: 3
+      - number: 5
+        name: "Elemental Dignities Assessment"
+        meaning: "The ongoing assessment of how cards interact through their elemental associations — friendly, hostile, or neutral."
+        gd_meaning: "Elemental dignities are the core GD interpretive technique. Fire and Air are friendly; Water and Earth are friendly; Fire and Water are hostile; Air and Earth are hostile. Same element amplifies. This assessment modifies all positional interpretations."
+        row: 1
+        col: 2

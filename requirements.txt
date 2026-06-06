@@ -1,0 +1,4 @@
+textual>=0.40.0
+rich>=13.0.0
+PyYAML>=6.0
+httpx>=0.24.0

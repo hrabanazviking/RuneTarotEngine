@@ -1,0 +1,110 @@
+# RuneTarot — AI Prompt Templates for OpenRouter Integration
+# These templates are used to construct prompts for AI-powered readings
+
+system_prompt: |
+  You are an expert tarot reader trained in the Hermetic Order of the Golden Dawn's Book T system.
+  You interpret cards using:
+  - Golden Dawn correspondences (Hebrew letters, astrological associations, Tree of Life paths)
+  - Elemental dignities and their interactions
+  - Qabalistic numerology and symbolism
+  - The Thoth/Rider-Waite-Smith visual symbolism
+  - Esoteric titles and their deeper meanings
+  
+  Your readings are:
+  - Philosophically deep but practically applicable
+  - Rooted in the Golden Dawn tradition with awareness of other traditions
+  - Honest — you do not sugarcoat difficult cards
+  - Non-deterministic — you acknowledge free will and the power of choice
+  - Rich with symbolic connections that illuminate the querent's situation
+  
+  Format your readings with clear structure. Use the card's Golden Dawn title, 
+  Hebrew letter, and astrological correspondence when providing deep analysis.
+  Always consider elemental dignities between adjacent cards.
+
+reading_prompt_template: |
+  ## Tarot Reading Request
+  
+  **Spread:** {spread_name}
+  **Question:** {question}
+  
+  ### Cards Drawn
+  
+  {cards_section}
+  
+  ### Elemental Dignities Assessment
+  
+  {dignities_section}
+  
+  ### Positional Interpretation
+  
+  Please provide a detailed interpretation for each card in its position, 
+  considering:
+  1. The card's Golden Dawn esoteric title and its meaning
+  2. The Hebrew letter attribution and its significance  
+  3. The astrological correspondence and how it colours the reading
+  4. The card's relationship to neighbouring cards (elemental dignities)
+  5. How the card's energy manifests in this specific position
+  
+  ### Synthesis
+  
+  After interpreting each position, provide an overall synthesis:
+  1. The dominant elemental pattern of the reading
+  2. Key themes and narrative arc
+  3. The spiritual lesson or opportunity
+  4. Practical guidance for the querent
+  5. Any warning or challenge to be mindful of
+  
+  Remember: the future shown in tarot is the trajectory of current forces,
+  not fixed fate. The querent always has the power of choice.
+
+card_detail_prompt_template: |
+  ## Deep Card Analysis Request
+  
+  **Card:** {card_name}
+  **Golden Dawn Title:** {gd_title}
+  **Hebrew Letter:** {hebrew_letter} ({hebrew_meaning})
+  **Astrological:** {astrological}
+  **Tree of Life Path:** {tree_path} ({tree_sephiroth})
+  **Element:** {element}
+  
+  Please provide a comprehensive esoteric analysis of this card, including:
+  
+  1. **Literal Meaning**: The surface-level divinatory meaning (upright and reversed)
+  2. **Hebrew Letter Analysis**: What the letter's shape, number, and meaning reveal
+  3. **Astrological Dimension**: How the planetary/zodiacal influence manifests
+  4. **Tree of Life Context**: What this path connects and what that implies spiritually
+  5. **Elemental Quality**: The elemental nature and its practical expression
+  6. **Golden Dawn Image**: The traditional GD imagery and its symbolic components
+  7. **Alchemical Dimension**: Any alchemical symbolism or process
+  8. **Meditation Focus**: A suggested contemplation for working with this card
+
+correspondence_analysis_template: |
+  ## Correspondence Web Analysis
+  
+  The following cards were drawn in a reading. Please analyze the web of 
+  correspondences between them, looking for:
+  
+  1. **Hebrew Letter Patterns**: Are there letter-number patterns? (e.g., multiples, 
+     sequential paths, letters forming words)
+  2. **Astrological Patterns**: Do the planetary/zodiacal correspondences form 
+     aspects, clusters, or complementary pairs?
+  3. **Tree of Life Patterns**: Do the paths cluster around particular sephiroth 
+     or trace a movement along the Tree?
+  4. **Elemental Balance**: Is there a dominant or missing element? What does this 
+     suggest about the situation?
+  5. **Numerological Patterns**: Do the card numbers form significant sequences?
+  
+  {cards_data}
+
+daily_draw_prompt_template: |
+  ## Daily Draw Reflection
+  
+  **Card:** {card_name}
+  **Question:** What energy or lesson should I focus on today?
+  
+  Please provide a brief, poetic reflection on this card as a daily meditation 
+  focus. Include:
+  1. The card's core energy for today
+  2. A specific area of life it may address
+  3. A simple practice or mindfulness to carry through the day
+  4. A key phrase or affirmation drawn from the card's symbolism

@@ -1,0 +1,1017 @@
+# RuneTarot — Major Arcana
+# Golden Dawn / Book T Correspondences
+# Hebrew Letter attributions per the Hermetic Order of the Golden Dawn
+# Justice = 8, Strength/Lust = 11 (GD ordering, not RW)
+
+cards:
+  - number: 0
+    rw_number: 0
+    gd_title: "The Spirit of Ether"
+    common_name: "The Fool"
+    hebrew_letter: "Aleph"
+    hebrew_number: 1
+    hebrew_meaning: "Ox"
+    astrological: "Elemental Air"
+    correspondence_type: "Mother Letter"
+    tree_path: 11
+    tree_sephiroth: "Kether to Chokmah"
+    element: "Air"
+    divinatory_meaning_upright:
+      - "New beginnings"
+      - "Innocence"
+      - "Spontaneity"
+      - "Free spirit"
+      - "Foolishness"
+      - "Leap of faith"
+      - "Originality"
+      - "Unexpected events"
+    divinatory_meaning_reversed:
+      - "Recklessness"
+      - "Risk-taking"
+      - "Held back by fear"
+      - "Foolish choices"
+      - "Naivety"
+      - "Instability"
+      - "Chaos"
+    gd_meaning: "The Pure and Exalted Soul, the Breath of Life, the Primum Mobile. The Spirit of God moving over the waters. Folly in the material sense but Divine Wisdom in the spiritual. The exalted spirit transcending reason."
+    esoteric_title: "The Spirit of Aether"
+    image_description: "A radiant youth with golden hair, about to step from a cliff into the Abyss. A crocodile awaits below. The youth bears a wand and a sack. The sun shines above. A white dog or wolf accompanies him. A butterfly hovers near."
+    keywords:
+      - "beginnings"
+      - "faith"
+      - "innocence"
+      - "spontaneity"
+      - "air"
+      - "spirit"
+    color_scale:
+      king: "Pale Yellow"
+      queen: "Sky Blue"
+      prince: "Emerald Green"
+      princess: "Citrine, Olive, Russet, Black"
+
+  - number: 1
+    rw_number: 1
+    gd_title: "The Magus of Power"
+    common_name: "The Magician"
+    hebrew_letter: "Beth"
+    hebrew_number: 2
+    hebrew_meaning: "House"
+    astrological: "Mercury"
+    correspondence_type: "Double Letter"
+    tree_path: 12
+    tree_sephiroth: "Kether to Binah"
+    element: "Air (Mercurial)"
+    divinatory_meaning_upright:
+      - "Manifestation"
+      - "Willpower"
+      - "Resourcefulness"
+      - "Skill"
+      - "Communication"
+      - "Intellect"
+      - "Creative power"
+      - "Concentration"
+    divinatory_meaning_reversed:
+      - "Manipulation"
+      - "Deception"
+      - "Poor planning"
+      - "Untapped talents"
+      - "Misuse of skill"
+      - "Trickery"
+      - "Illusion"
+    gd_meaning: "The Will. The Messenger of the Gods. The power of the Magus to channel divine force into form. Mercury as the bridge between worlds. Active intelligence directing the forces of creation through will and word."
+    esoteric_title: "The Magus of the Eternal"
+    image_description: "A man standing before a table bearing the four elemental symbols — Wand, Cup, Sword, Pentacle. His right hand holds a wand raised to heaven, left hand points to earth. A white radiance above his head forms the symbol of infinity. Red roses and white lilies grow before him."
+    keywords:
+      - "will"
+      - "power"
+      - "mercury"
+      - "creation"
+      - "manifestation"
+      - "skill"
+    color_scale:
+      king: "Yellow"
+      queen: "Purple"
+      prince: "Grey"
+      princess: "Indigo"
+
+  - number: 2
+    rw_number: 2
+    gd_title: "The Priestess of the Silver Star"
+    common_name: "The High Priestess"
+    hebrew_letter: "Gimel"
+    hebrew_number: 3
+    hebrew_meaning: "Camel"
+    astrological: "Moon"
+    correspondence_type: "Double Letter"
+    tree_path: 13
+    tree_sephiroth: "Kether to Tiphareth"
+    element: "Water (Lunar)"
+    divinatory_meaning_upright:
+      - "Intuition"
+      - "Mystery"
+      - "Subconscious mind"
+      - "Inner wisdom"
+      - "Patience"
+      - "Hidden knowledge"
+      - "Receptivity"
+      - "Spiritual insight"
+    divinatory_meaning_reversed:
+      - "Secrets"
+      - "Withdrawal"
+      - "Silence"
+      - "Repressed intuition"
+      - "Disconnection from inner voice"
+      - "Deception"
+      - "Superficiality"
+    gd_meaning: "The Uniting Intelligence. The Priestess of the Silver Star of our Lady of the Night. The pure influence flowing from Kether. She is the Moon, reflecting the light of the Sun (Tiphareth). She guards the inner sanctum. The veiled Isis."
+    esoteric_title: "The Priestess of the Silver Star"
+    image_description: "A woman seated between two pillars — white (Jachin) and black (Boaz). She wears a blue robe and a crown of horn and globe. A scroll marked TORA rests in her lap. A veil hangs behind her. The crescent moon is at her feet. Pomegranates adorn the veil."
+    keywords:
+      - "intuition"
+      - "mystery"
+      - "moon"
+      - "subconscious"
+      - "wisdom"
+      - "veil"
+    color_scale:
+      king: "Blue"
+      queen: "Silver"
+      prince: "Cold Pale Blue"
+      princess: "Silver, Crystal"
+
+  - number: 3
+    rw_number: 3
+    gd_title: "The Daughter of the Mighty Ones"
+    common_name: "The Empress"
+    hebrew_letter: "Daleth"
+    hebrew_number: 4
+    hebrew_meaning: "Door"
+    astrological: "Venus"
+    correspondence_type: "Double Letter"
+    tree_path: 14
+    tree_sephiroth: "Chokmah to Binah"
+    element: "Earth (Venereal)"
+    divinatory_meaning_upright:
+      - "Fertility"
+      - "Nurture"
+      - "Abundance"
+      - "Motherhood"
+      - "Nature"
+      - "Creativity"
+      - "Sensuality"
+      - "Domestic harmony"
+    divinatory_meaning_reversed:
+      - "Dependence"
+      - "Smothering"
+      - "Creative block"
+      - "Infertility"
+      - "Neglect"
+      - "Emotional emptiness"
+      - "Over-attachment"
+    gd_meaning: "The Door of Life. Venus in her aspect as the fruitful mother. The Daughter of the Mighty Ones. The luminous intelligence which is the reflection of the splendour of the Sun. The gate through which life enters manifestation."
+    esoteric_title: "The Daughter of the Mighty Ones"
+    image_description: "A woman crowned with twelve stars, seated upon a throne in a fertile field. Wheat grows beneath her. A waterfall flows in the background. She wears a flowing green and white robe. A heart-shaped shield bearing the symbol of Venus rests beside her. Twelve stars crown her head."
+    keywords:
+      - "fertility"
+      - "venus"
+      - "abundance"
+      - "mother"
+      - "nature"
+      - "door"
+    color_scale:
+      king: "Emerald Green"
+      queen: "Rose"
+      prince: "Amber"
+      princess: "Olive, Citrine, Russet, Black"
+
+  - number: 4
+    rw_number: 4
+    gd_title: "The Sun of the Morning, Chief Among the Mighty"
+    common_name: "The Emperor"
+    hebrew_letter: "He"
+    hebrew_number: 5
+    hebrew_meaning: "Window"
+    astrological: "Aries"
+    correspondence_type: "Simple Letter"
+    tree_path: 15
+    tree_sephiroth: "Chokmah to Tiphareth"
+    element: "Fire (Aries)"
+    divinatory_meaning_upright:
+      - "Authority"
+      - "Structure"
+      - "Control"
+      - "Fatherhood"
+      - "Leadership"
+      - "Power"
+      - "Discipline"
+      - "Stability"
+    divinatory_meaning_reversed:
+      - "Tyranny"
+      - "Domination"
+      - "Rigidity"
+      - "Inflexibility"
+      - "Weakness"
+      - "Loss of control"
+      - "Immaturity"
+      - "Excessive control"
+    gd_meaning: "The Constituting Intelligence. Aries, the beginning of spring, the Ram of the Zodiac. The Father archetype — not the ultimate Father (Chokmah) but the manifest ruler. The window through which divine light enters the world of form."
+    esoteric_title: "Sun of the Morning, Chief Among the Mighty"
+    image_description: "A man seated upon a throne adorned with ram heads. He wears red armour and a crown. His legs form the symbol of the alchemical sulphur. He holds a sceptre and an orb. A white eagle is sometimes shown at his feet. Mountains rise behind him."
+    keywords:
+      - "authority"
+      - "aries"
+      - "structure"
+      - "power"
+      - "leadership"
+      - "window"
+    color_scale:
+      king: "Scarlet Red"
+      queen: "Red"
+      prince: "Brilliant Flame"
+      princess: "Glowing Red"
+
+  - number: 5
+    rw_number: 5
+    gd_title: "The Magus of the Eternal Gods"
+    common_name: "The Hierophant"
+    hebrew_letter: "Vav"
+    hebrew_number: 6
+    hebrew_meaning: "Nail"
+    astrological: "Taurus"
+    correspondence_type: "Simple Letter"
+    tree_path: 16
+    tree_sephiroth: "Chesed to Geburah"
+    element: "Earth (Taurian)"
+    divinatory_meaning_upright:
+      - "Tradition"
+      - "Spiritual wisdom"
+      - "Conformity"
+      - "Education"
+      - "Religion"
+      - "Guidance"
+      - "Mentorship"
+      - "Moral authority"
+    divinatory_meaning_reversed:
+      - "Rebellion"
+      - "Subversiveness"
+      - "New approaches"
+      - "Breaking from tradition"
+      - "Dogmatism"
+      - "Blind faith"
+      - "Restriction"
+      - "Corrupt authority"
+    gd_meaning: "The Eternal Intelligence. The Nail which secures. Taurus as theFixed Earth — that which holds fast to tradition and established spiritual teaching. The bridge between the divine and the human through ritual and initiatory knowledge."
+    esoteric_title: "The Magus of the Eternal"
+    image_description: "A pontiff figure seated between two pillars, wearing a triple crown and red robe. Two acolytes kneel before him, one tonsured. He makes the sign of benediction with three extended fingers. Crossed keys lie at his feet. The pillars are marked with the letters of the Tetragrammaton."
+    keywords:
+      - "tradition"
+      - "taurus"
+      - "teaching"
+      - "initiation"
+      - "authority"
+      - "nail"
+    color_scale:
+      king: "Red-Orange"
+      queen: "Deep Indigo"
+      prince: "Dark Green"
+      princess: "Deep Brown"
+
+  - number: 6
+    rw_number: 6
+    gd_title: "The Children of the Voice Divine, the Oracles of the Mighty Gods"
+    common_name: "The Lovers"
+    hebrew_letter: "Zayin"
+    hebrew_number: 7
+    hebrew_meaning: "Sword"
+    astrological: "Gemini"
+    correspondence_type: "Simple Letter"
+    tree_path: 17
+    tree_sephiroth: "Binah to Tiphareth"
+    element: "Air (Geminian)"
+    divinatory_meaning_upright:
+      - "Love"
+      - "Harmony"
+      - "Partnerships"
+      - "Choices"
+      - "Attraction"
+      - "Communication"
+      - "Dualism"
+      - "Values alignment"
+    divinatory_meaning_reversed:
+      - "Disharmony"
+      - "Imbalance"
+      - "Misalignment"
+      - "Indecision"
+      - "Conflict"
+      - "Poor communication"
+      - "Disconnection"
+      - "Values clash"
+    gd_meaning: "The Disposing Intelligence. Gemini, the Twins — the dual nature of the intellect. The Sword that cuts, dividing the real from the unreal. The Lovers represent the choice that defines the soul — not mere romantic union but the sacred marriage of opposites within the self."
+    esoteric_title: "The Children of the Voice Divine"
+    image_description: "A man and woman stand beneath an angel with outstretched wings — Raphael, the archangel of Air. Behind the woman is the Tree of Knowledge; behind the man, the Tree of Life. A serpent coils in the Tree of Knowledge. A mountain rises between them."
+    keywords:
+      - "love"
+      - "gemini"
+      - "choice"
+      - "duality"
+      - "union"
+      - "sword"
+    color_scale:
+      king: "Orange"
+      queen: "Pale Mauve"
+      prince: "Clear Grey"
+      princess: "Slate Blue"
+
+  - number: 7
+    rw_number: 7
+    gd_title: "The Lord of the Chariot of Power"
+    common_name: "The Chariot"
+    hebrew_letter: "Chet"
+    hebrew_number: 8
+    hebrew_meaning: "Fence"
+    astrological: "Cancer"
+    correspondence_type: "Simple Letter"
+    tree_path: 18
+    tree_sephiroth: "Geburah to Chesed"
+    element: "Water (Cancer)"
+    divinatory_meaning_upright:
+      - "Determination"
+      - "Willpower"
+      - "Victory"
+      - "Assertion"
+      - "Control"
+      - "Triumph"
+      - "Ambition"
+      - "Forward movement"
+    divinatory_meaning_reversed:
+      - "Lack of control"
+      - "Aggression"
+      - "No direction"
+      - "Opposition"
+      - "Defeat"
+      - "Obstacles"
+      - "Scattered energy"
+      - "Force without wisdom"
+    gd_meaning: "The Intelligence of Influence. Cancer, the sign of the Crab — armour and defence, the sacred enclosure. The Charioteer has conquered by integrating the opposing forces within. The Fence which separates the sacred from the profane, creating the vessel for divine will to manifest."
+    esoteric_title: "The Lord of the Chariot of Power"
+    image_description: "A warrior standing in a chariot drawn by two sphinxes or two horses — one black, one white, sometimes one red, one blue. He wears a crown and armour adorned with crescent moons. A canopy of stars hangs above him. The city is behind him."
+    keywords:
+      - "victory"
+      - "cancer"
+      - "will"
+      - "control"
+      - "triumph"
+      - "fence"
+    color_scale:
+      king: "Amber"
+      queen: "Silver"
+      prince: "Blue"
+      princess: "Pale Silver"
+
+  - number: 8
+    rw_number: 11
+    gd_title: "The Daughter of the Lords of Truth, the Ruler of the Balance"
+    common_name: "Justice"
+    hebrew_letter: "Lamed"
+    hebrew_number: 30
+    hebrew_meaning: "Ox-goad"
+    astrological: "Libra"
+    correspondence_type: "Simple Letter"
+    tree_path: 22
+    tree_sephiroth: "Geburah to Tiphareth"
+    element: "Air (Libran)"
+    divinatory_meaning_upright:
+      - "Justice"
+      - "Fairness"
+      - "Truth"
+      - "Cause and effect"
+      - "Law"
+      - "Honesty"
+      - "Balance"
+      - "Accountability"
+    divinatory_meaning_reversed:
+      - "Injustice"
+      - "Dishonesty"
+      - "Lack of accountability"
+      - "Unfairness"
+      - "Corruption"
+      - "Imbalance"
+      - "Legal problems"
+      - "Avoidance of consequence"
+    gd_meaning: "The Faithful Intelligence. Libra, the Balance — the Scales of Maat. The Ox-goad which drives the soul toward truth. In the Golden Dawn system, Justice is VIII, placed upon the path from Geburah to Tiphareth — Severity balanced by Beauty. The adjustment of the universe."
+    esoteric_title: "The Daughter of the Lords of Truth"
+    image_description: "A woman seated upon a throne between pillars. She holds a sword upright in her right hand and scales in her left. Her eyes are open and direct. She wears a red robe and a crown. The sword is double-edged."
+    keywords:
+      - "justice"
+      - "libra"
+      - "balance"
+      - "truth"
+      - "law"
+      - "ox-goad"
+    color_scale:
+      king: "Emerald Green"
+      queen: "Blue"
+      prince: "Deep Blue-Green"
+      princess: "Pale Green"
+
+  - number: 9
+    rw_number: 9
+    gd_title: "The Magus of the Voice of Power, the Prophet of the Eternal"
+    common_name: "The Hermit"
+    hebrew_letter: "Yod"
+    hebrew_number: 10
+    hebrew_meaning: "Hand"
+    astrological: "Virgo"
+    correspondence_type: "Simple Letter"
+    tree_path: 20
+    tree_sephiroth: "Chesed to Tiphareth"
+    element: "Earth (Virgo)"
+    divinatory_meaning_upright:
+      - "Introspection"
+      - "Solitude"
+      - "Inner guidance"
+      - "Wisdom"
+      - "Spiritual seeking"
+      - "Soul-searching"
+      - "Withdrawal"
+      - "Philosophical inquiry"
+    divinatory_meaning_reversed:
+      - "Isolation"
+      - "Loneliness"
+      - "Withdrawal"
+      - "Anti-social"
+      - "Lost"
+      - "Refusal of guidance"
+      - "Paranoia"
+      - "Excessive solitude"
+    gd_meaning: "The Intelligence of Will. Virgo, the Virgin — the pure vessel. Yod, the Hand — the point of divine touch, the smallest letter from which all others are formed. The Hermit as the self-initiated prophet who carries the inner light into the darkness of the world."
+    esoteric_title: "The Prophet of the Eternal"
+    image_description: "An old man in a grey cloak walking upon a mountain peak, holding a lantern containing a six-pointed star. In his other hand he holds a staff. Snow-capped mountains surround him. His beard is long and white."
+    keywords:
+      - "solitude"
+      - "virgo"
+      - "wisdom"
+      - "inner-light"
+      - "seeking"
+      - "hand"
+    color_scale:
+      king: "Greenish Yellow"
+      queen: "Slate Grey"
+      prince: "Green-Grey"
+      princess: "Plum"
+
+  - number: 10
+    rw_number: 10
+    gd_title: "The Lord of the Forces of Life"
+    common_name: "Wheel of Fortune"
+    hebrew_letter: "Kaf"
+    hebrew_number: 20
+    hebrew_meaning: "Palm of the Hand"
+    astrological: "Jupiter"
+    correspondence_type: "Double Letter"
+    tree_path: 21
+    tree_sephiroth: "Chesed to Netzach"
+    element: "Fire (Jovian)"
+    divinatory_meaning_upright:
+      - "Good fortune"
+      - "Karma"
+      - "Life cycles"
+      - "Destiny"
+      - "Turning point"
+      - "Luck"
+      - "Fate"
+      - "Expansion"
+    divinatory_meaning_reversed:
+      - "Bad luck"
+      - "Resistance to change"
+      - "Breaking cycles"
+      - "Against the grain"
+      - "External forces"
+      - "Unforeseen change"
+      - "Misfortune"
+      - "Setbacks"
+    gd_meaning: "The Rewarding Intelligence of the Seeker. Jupiter, the Great Benefic. The Wheel as the cosmic mechanism of karma and destiny — the three Gunas spinning the universe. Kaph, the grasping hand — one receives what one reaches for, and the Wheel turns inevitably."
+    esoteric_title: "The Lord of the Forces of Life"
+    image_description: "A great wheel turning. At the top sits a sphinx with a sword. At the bottom descends a snake — Typhon. On the right, Anubis rises. The four fixed signs of the Zodiac — Taurus, Leo, Scorpio, Aquarius — appear in the corners reading books. The wheel bears the letters T-A-R-O and the Hebrew letters of the Tetragrammaton."
+    keywords:
+      - "fate"
+      - "jupiter"
+      - "cycles"
+      - "fortune"
+      - "karma"
+      - "palm"
+    color_scale:
+      king: "Violet"
+      queen: "Blue"
+      prince: "Rich Purple"
+      princess: "Blue, mixed with Violet"
+
+  - number: 11
+    rw_number: 8
+    gd_title: "The Daughter of the Flaming Sword, the Ruler of the Lion"
+    common_name: "Lust"
+    common_name_rw: "Strength"
+    hebrew_letter: "Tet"
+    hebrew_number: 9
+    hebrew_meaning: "Serpent"
+    astrological: "Leo"
+    correspondence_type: "Simple Letter"
+    tree_path: 19
+    tree_sephiroth: "Chesed to Geburah"
+    element: "Fire (Leonine)"
+    divinatory_meaning_upright:
+      - "Strength"
+      - "Courage"
+      - "Patience"
+      - "Compassion"
+      - "Inner power"
+      - "Self-mastery"
+      - "Passion"
+      - "Creative fire"
+    divinatory_meaning_reversed:
+      - "Self-doubt"
+      - "Weakness"
+      - "Insecurity"
+      - "Raw aggression"
+      - "Lack of self-control"
+      - "Shame"
+      - "Repressed passion"
+      - "Burnout"
+    gd_meaning: "The Intelligence of the Secret of all Spiritual Activities. Leo, the Lion — the fiery heart. Tet, the Serpent — the kundalini fire coiled within. In the GD system this card is Lust (XI), not Strength (VIII) — the creative, passionate union of the soul with divine force. The woman who rides the lion is not taming it through force but through love and ecstatic union."
+    esoteric_title: "The Daughter of the Flaming Sword"
+    image_description: "A naked woman riding upon a great lion. She holds the reins loosely. Flowers grow in the lion's wake. Above them glows the symbol of the infinite — the Lemniscate. Seven flames rise from the lion's back. Her expression is one of ecstatic rapture."
+    keywords:
+      - "strength"
+      - "leo"
+      - "passion"
+      - "courage"
+      - "kundalini"
+      - "serpent"
+    color_scale:
+      king: "Yellow"
+      queen: "Deep Purple"
+      prince: "Grey"
+      princess: "Reddish Grey"
+
+  - number: 12
+    rw_number: 12
+    gd_title: "The Spirit of the Mighty Waters"
+    common_name: "The Hanged Man"
+    hebrew_letter: "Mem"
+    hebrew_number: 40
+    hebrew_meaning: "Water"
+    astrological: "Elemental Water"
+    correspondence_type: "Mother Letter"
+    tree_path: 23
+    tree_sephiroth: "Geburah to Hod"
+    element: "Water"
+    divinatory_meaning_upright:
+      - "Surrender"
+      - "New perspective"
+      - "Letting go"
+      - "Sacrifice"
+      - "Suspension"
+      - "Enlightenment through surrender"
+      - "Waiting"
+      - "Voluntary sacrifice"
+    divinatory_meaning_reversed:
+      - "Delays"
+      - "Resistance"
+      - "Stalling"
+      - "Indecision"
+      - "Unnecessary sacrifice"
+      - "Martyrdom"
+      - "Stagnation"
+      - "Self-sabotage"
+    gd_meaning: "The Stable Intelligence. Mem, the second Mother Letter — the Great Sea. The Hanged Man is the Odin-figure, voluntarily suspended between worlds, seeing from the inverted perspective. The Spirit of the Mighty Waters — the Baptism of the Soul in the primal waters of Binah. The true sacrifice is the sacrifice of the ego to the Higher Self."
+    esoteric_title: "The Spirit of the Mighty Waters"
+    image_description: "A man hanging upside down from a T-shaped cross or an ankh-shaped tree. His head is in a golden nimbus. One leg is crossed behind the other. A green halo surrounds his head. Coins fall from his pockets into the water below. The tree is living — green leaves sprout from it."
+    keywords:
+      - "surrender"
+      - "water"
+      - "sacrifice"
+      - "perspective"
+      - "waiting"
+      - "odin"
+    color_scale:
+      king: "Blue"
+      queen: "Sea Green"
+      prince: "Deep Blue-Purple"
+      princess: "Pale Blue"
+
+  - number: 13
+    rw_number: 13
+    gd_title: "The Lord of the Gates of Death, the Child of the Great Transformers, the Lord of the Gate of Death"
+    common_name: "Death"
+    hebrew_letter: "Nun"
+    hebrew_number: 50
+    hebrew_meaning: "Fish"
+    astrological: "Scorpio"
+    correspondence_type: "Simple Letter"
+    tree_path: 24
+    tree_sephiroth: "Tiphareth to Netzach"
+    element: "Water (Scorpionic)"
+    divinatory_meaning_upright:
+      - "Endings"
+      - "Transformation"
+      - "Transition"
+      - "Rebirth"
+      - "Letting go"
+      - "Release"
+      - "Closure"
+      - "Metamorphosis"
+    divinatory_meaning_reversed:
+      - "Resistance to change"
+      - "Stagnation"
+      - "Decay"
+      - "Fear of endings"
+      - "Stubbornness"
+      - "Slow transition"
+      - "Inability to move on"
+      - "Decay without renewal"
+    gd_meaning: "The Imaginative Intelligence. Scorpio — the sign of death and transformation, the Eagle and the Serpent and the Scorpion. Nun, the Fish — the symbol of that which lives in the deep waters of the unconscious. Death is not an ending but a transition between states. The child of the Great Transformers — the alchemical Putrefaction leading to Rebirth."
+    esoteric_title: "The Lord of the Gates of Death"
+    image_description: "A skeleton riding a pale white horse. A black flag bearing a white rose is carried. Before the horse, a bishop kneels. A young woman turns away. A child offers flowers. The sun rises between two towers in the distance."
+    keywords:
+      - "death"
+      - "scorpio"
+      - "transformation"
+      - "rebirth"
+      - "endings"
+      - "fish"
+    color_scale:
+      king: "Green-Blue"
+      queen: "Dull Brown"
+      prince: "Very Dark Brown"
+      princess: "Livid Indigo"
+
+  - number: 14
+    rw_number: 14
+    gd_title: "The Daughter of the Reconcilers, the Bringer Forth of Life"
+    common_name: "Art"
+    common_name_rw: "Temperance"
+    hebrew_letter: "Samekh"
+    hebrew_number: 60
+    hebrew_meaning: "Tent Peg"
+    astrological: "Sagittarius"
+    correspondence_type: "Simple Letter"
+    tree_path: 25
+    tree_sephiroth: "Tiphareth to Yesod"
+    element: "Fire (Sagittarian)"
+    divinatory_meaning_upright:
+      - "Balance"
+      - "Moderation"
+      - "Patience"
+      - "Purpose"
+      - "Alchemy"
+      - "Blending"
+      - "Integration"
+      - "Harmonious exchange"
+    divinatory_meaning_reversed:
+      - "Imbalance"
+      - "Excess"
+      - "Lack of long-term vision"
+      - "Misalignment"
+      - "Re-alignment needed"
+      - "Overindulgence"
+      - "Hastiness"
+      - "Disconnection"
+    gd_meaning: "The Tentative or Probing Intelligence. Sagittarius, the Archer — the directed will seeking its target. Samekh, the Tent Peg — that which secures the dwelling of the soul in the body. Art/Temperance as the alchemical process of Solve et Coagula — dissolving and recombining the elements into the Philosopher's Stone."
+    esoteric_title: "The Daughter of the Reconcilers"
+    image_description: "An angelic figure (often female) with the sigil of the Sun upon her brow, wearing a white robe, pouring fluid between two vessels — one golden, one silver. One foot rests in water, the other on land. A path leads to mountains between which the sun rises. Upon the angel's chest is the square and compasses of the Freemasons, or a triangle within a sun."
+    keywords:
+      - "alchemy"
+      - "sagittarius"
+      - "balance"
+      - "integration"
+      - "moderation"
+      - "tent-peg"
+    color_scale:
+      king: "Blue"
+      queen: "Yellow"
+      prince: "Dark Violet"
+      princess: "Red, tinged Violet"
+
+  - number: 15
+    rw_number: 15
+    gd_title: "The Lord of the Gates of Matter, the Child of the Forces of Time"
+    common_name: "The Devil"
+    hebrew_letter: "Ayin"
+    hebrew_number: 70
+    hebrew_meaning: "Eye"
+    astrological: "Capricorn"
+    correspondence_type: "Simple Letter"
+    tree_path: 26
+    tree_sephiroth: "Tiphareth to Hod"
+    element: "Earth (Capricorn)"
+    divinatory_meaning_upright:
+      - "Shadow self"
+      - "Attachment"
+      - "Addiction"
+      - "Materialism"
+      - "Bondage"
+      - "Illusion"
+      - "Temptation"
+      - "Earthly power"
+    divinatory_meaning_reversed:
+      - "Release from bondage"
+      - "Freedom"
+      - "Breaking free"
+      - "Detachment"
+      - "Claiming power"
+      - "Revelation"
+      - "Seeing through illusion"
+      - "Shadow work"
+    gd_meaning: "The Renovating Intelligence. Capricorn, the Goat — climbing the mountain of matter. Ayin, the Eye — the eye that sees only the material, the eye that must be opened to see beyond the veil. The Devil is not evil but rather the Lord of the Gates of Matter — the necessary limitation that makes manifestation possible. The chains are loose — one need only choose to remove them."
+    esoteric_title: "The Lord of the Gates of Matter"
+    image_description: "A horned, goat-headed figure standing upon a pedestal or cube. A reversed pentagram hangs above. Two figures — male and female — stand chained to the pedestal, but the chains are loose. The figures have horns and tails. A torch burns inverted between the Devil's horns."
+    keywords:
+      - "shadow"
+      - "capricorn"
+      - "bondage"
+      - "materialism"
+      - "illusion"
+      - "eye"
+    color_scale:
+      king: "Indigo"
+      queen: "Black"
+      prince: "Blue-Black"
+      princess: "Black, rayed Blue"
+
+  - number: 16
+    rw_number: 16
+    gd_title: "The Lord of the Hosts of the Mighty"
+    common_name: "The Tower"
+    hebrew_letter: "Pe"
+    hebrew_number: 80
+    hebrew_meaning: "Mouth"
+    astrological: "Mars"
+    correspondence_type: "Double Letter"
+    tree_path: 27
+    tree_sephiroth: "Hod to Netzach"
+    element: "Fire (Martial)"
+    divinatory_meaning_upright:
+      - "Sudden upheaval"
+      - "Revelation"
+      - "Awakening"
+      - "Destruction of falsehood"
+      - "Breaking down"
+      - "Epiphany"
+      - "Liberation"
+      - "Revolution"
+    divinatory_meaning_reversed:
+      - "Fear of change"
+      - "Avoidance of disaster"
+      - "Averting crisis"
+      - "Delaying the inevitable"
+      - "Resistance to revelation"
+      - "Internal upheaval"
+      - "Stagnation"
+      - "Denial"
+    gd_meaning: "The Exciting Intelligence. Mars, the Destroyer — the force that shatters false structures. Pe, the Mouth — the mouth that speaks the Word of Power which destroys illusion. The Lord of the Hosts of the Mighty — the war-god who brings the necessary destruction of outmoded forms so that new life may emerge. The lightning flash of the Qliphoth."
+    esoteric_title: "The Lord of the Hosts of the Mighty"
+    image_description: "A tower struck by lightning. A crown falls from its top. Two figures fall headlong from the tower. One figure wears a crown. Grey clouds and fire surround the structure. The Eye of Horus or Shiva sometimes appears in the lightning bolt."
+    keywords:
+      - "upheaval"
+      - "mars"
+      - "revelation"
+      - "destruction"
+      - "liberation"
+      - "mouth"
+    color_scale:
+      king: "Scarlet Red"
+      queen: "Crimson"
+      prince: "Vermilion"
+      princess: "Bright Red, rayed Azure"
+
+  - number: 17
+    rw_number: 17
+    gd_title: "The Daughter of the Firmament, the Dweller Between the Waters"
+    common_name: "The Star"
+    hebrew_letter: "Tzaddi"
+    hebrew_number: 90
+    hebrew_meaning: "Fish-hook"
+    astrological: "Aquarius"
+    correspondence_type: "Simple Letter"
+    tree_path: 28
+    tree_sephiroth: "Yesod to Netzach"
+    element: "Air (Aquarian)"
+    divinatory_meaning_upright:
+      - "Hope"
+      - "Inspiration"
+      - "Renewal"
+      - "Serenity"
+      - "Spiritual insight"
+      - "Healing"
+      - "Blessings"
+      - "Guidance"
+    divinatory_meaning_reversed:
+      - "Despair"
+      - "Disconnection"
+      - "Lack of faith"
+      - "Discouragement"
+      - "Alienation"
+      - "Blind hope"
+      - "Lost direction"
+      - "Diminished inspiration"
+    gd_meaning: "The Natural Intelligence. Aquarius, the Water-Bearer — the pouring forth of divine knowledge. Tzaddi, the Fish-hook — the instrument by which the soul draws nourishment from the waters of the unconscious. The Daughter of the Firmament — the star-priestess who bridges heaven and earth. Note: Crowley famously proposed that Tzaddi belongs to The Emperor, swapping with He (The Star), but the GD original assigns Tzaddi to Aquarius here."
+    esoteric_title: "The Daughter of the Firmament"
+    image_description: "A naked woman kneeling at the edge of a pool, pouring water from two vessels — one onto the land, one into the water. A great eight-pointed star blazes above her. Seven smaller stars surround it. A bird (sometimes an ibis) perches on a tree nearby. Flowers grow at the water's edge."
+    keywords:
+      - "hope"
+      - "aquarius"
+      - "inspiration"
+      - "healing"
+      - "stars"
+      - "fish-hook"
+    color_scale:
+      king: "Violet"
+      queen: "Nile Green"
+      prince: "Bright Blue"
+      princess: "Pale Blue"
+
+  - number: 18
+    rw_number: 18
+    gd_title: "The Ruler of Flux and Reflux, the Child of the Sons of the Mighty"
+    common_name: "The Moon"
+    hebrew_letter: "Qof"
+    hebrew_number: 100
+    hebrew_meaning: "Back of the Head"
+    astrological: "Pisces"
+    correspondence_type: "Simple Letter"
+    tree_path: 29
+    tree_sephiroth: "Netzach to Malkuth"
+    element: "Water (Piscean)"
+    divinatory_meaning_upright:
+      - "Illusion"
+      - "Intuition"
+      - "Dreams"
+      - "Subconscious"
+      - "Uncertainty"
+      - "Mystery"
+      - "Deception"
+      - "Nocturnal realms"
+    divinatory_meaning_reversed:
+      - "Release of fears"
+      - "Clarity emerging"
+      - "Truth revealed"
+      - "Overcoming deception"
+      - "Escaping illusion"
+      - "Repressed emotions surfacing"
+      - "Resolution"
+      - "Insomnia"
+    gd_meaning: "The Corporeal Intelligence. Pisces, the Fishes — the final sign, the dissolving of boundaries. Qof, the Back of the Head — the occiput, the most ancient part of the brain, the reptilian consciousness. The path of the Moon is the path of the Qliphoth — the shells and husks. The Ruler of Flux and Reflux — the tides of the unconscious mind."
+    esoteric_title: "The Ruler of Flux and Reflux"
+    image_description: "A full moon shines between two towers on a bleak landscape. A path winds between the towers past two wolves or dogs howling at the moon. A crayfish or scarab emerges from a pool. Water flows across the foreground. Yods fall from the moon."
+    keywords:
+      - "moon"
+      - "pisces"
+      - "illusion"
+      - "dreams"
+      - "subconscious"
+      - "back-of-head"
+    color_scale:
+      king: "Pale Mauve"
+      queen: "White"
+      prince: "Crimson"
+      princess: "White, flecked Crimson"
+
+  - number: 19
+    rw_number: 19
+    gd_title: "The Lord of the Fire of the World"
+    common_name: "The Sun"
+    hebrew_letter: "Resh"
+    hebrew_number: 200
+    hebrew_meaning: "Head"
+    astrological: "Sun"
+    correspondence_type: "Double Letter"
+    tree_path: 30
+    tree_sephiroth: "Yesod to Hod"
+    element: "Fire (Solar)"
+    divinatory_meaning_upright:
+      - "Joy"
+      - "Success"
+      - "Vitality"
+      - "Optimism"
+      - "Abundance"
+      - "Confidence"
+      - "Self-expression"
+      - "Enlightenment"
+    divinatory_meaning_reversed:
+      - "Inner child issues"
+      - "Temporary sadness"
+      - "Over-optimism"
+      - "Ego"
+      - "Arrogance"
+      - "Burnout"
+      - "Setbacks"
+      - "Diminished joy"
+    gd_meaning: "The Collecting Intelligence. The Sun — Tiphareth in its purest planetary expression. Resh, the Head — the crown of consciousness, the seat of divine awareness. The Lord of the Fire of the World — the central fire that illuminates all things. The Sun is the Prana, the Chi, the vital force of the cosmos."
+    esoteric_title: "The Lord of the Fire of the World"
+    image_description: "A radiant sun with a human face, shining upon two naked children embracing in a walled garden. Sunflowers line the garden wall. A white horse stands near the children. Rays of light emanate from the sun in all directions. Some versions show a single child on a white horse."
+    keywords:
+      - "sun"
+      - "joy"
+      - "success"
+      - "vitality"
+      - "enlightenment"
+      - "head"
+    color_scale:
+      king: "Orange"
+      queen: "Gold Yellow"
+      prince: "Rich Salmon"
+      princess: "Amber"
+
+  - number: 20
+    rw_number: 20
+    gd_title: "The Lord of the Fire of the Last Judgment, the One Who Revisits"
+    common_name: "The Aeon"
+    common_name_rw: "Judgement"
+    hebrew_letter: "Shin"
+    hebrew_number: 300
+    hebrew_meaning: "Tooth"
+    astrological: "Elemental Fire"
+    correspondence_type: "Mother Letter"
+    tree_path: 31
+    tree_sephiroth: "Hod to Malkuth"
+    element: "Fire"
+    divinatory_meaning_upright:
+      - "Judgement"
+      - "Rebirth"
+      - "Absolution"
+      - "Inner calling"
+      - "Reckoning"
+      - "Awakening"
+      - "Forgiveness"
+      - "Spiritual evolution"
+    divinatory_meaning_reversed:
+      - "Self-doubt"
+      - "Inner critic"
+      - "Ignoring the call"
+      - "Poor judgement"
+      - "Stagnation"
+      - "Refusal to learn"
+      - "Denial"
+      - "Unresolved guilt"
+    gd_meaning: "The Perpetual Intelligence. Shin, the third Mother Letter — the Fire of the Spirit, the Tooth that devours and purifies. The Aeon (not Judgement in the GD/Crowley system) — the new epoch of consciousness. The resurrection of the dead is the resurrection of the spiritual awareness within the living. The Fire which refines."
+    esoteric_title: "The Lord of the Fire of the Last Judgment"
+    image_description: "The angel Gabriel (or Harpocrates in Crowley's version) sounds a trumpet. The dead rise from their coffins. A man, woman, and child look upward with arms outstretched. In the GD version, the goddess Nuit arches over the scene. The image represents the awakening of the soul to its divine nature."
+    keywords:
+      - "judgement"
+      - "fire"
+      - "rebirth"
+      - "aeon"
+      - "awakening"
+      - "tooth"
+    color_scale:
+      king: "Red"
+      queen: "Orange"
+      prince: "Amber"
+      princess: "Citrine, Flecked Red"
+
+  - number: 21
+    rw_number: 21
+    gd_title: "The Great One of the Night of Time"
+    common_name: "The Universe"
+    common_name_rw: "The World"
+    hebrew_letter: "Tav"
+    hebrew_number: 400
+    hebrew_meaning: "Cross"
+    astrological: "Saturn"
+    correspondence_type: "Double Letter"
+    tree_path: 32
+    tree_sephiroth: "Yesod to Malkuth"
+    element: "Earth (Saturnian)"
+    divinatory_meaning_upright:
+      - "Completion"
+      - "Fulfilment"
+      - "Wholeness"
+      - "Accomplishment"
+      - "Integration"
+      - "Synthesis"
+      - "The end of a cycle"
+      - "Worldly success"
+    divinatory_meaning_reversed:
+      - "Incompletion"
+      - "Lack of closure"
+      - "Shortcuts"
+      - "Emptiness"
+      - "Delays"
+      - "Remaining lessons"
+      - "Inability to finish"
+      - "Avoidance"
+    gd_meaning: "The Administrative Intelligence. Saturn, the Great Teacher — the limit which defines form. Tav, the Cross — the intersection of spirit and matter, the final letter of the Hebrew alphabet. The Great One of the Night of Time — the cosmic dance of creation in its completeness. The Universe is the 32nd path, the final path, completing the cycle from Kether to Malkuth."
+    esoteric_title: "The Great One of the Night of Time"
+    image_description: "A naked woman dancing within a great wreath of laurel. She holds a wand in each hand. The four fixed signs of the Zodiac appear in the corners as the Lion, Eagle, Bull, and Angel. The wreath is oval, shaped like a cosmic egg. A serpent winds around the wreath."
+    keywords:
+      - "completion"
+      - "saturn"
+      - "universe"
+      - "wholeness"
+      - "integration"
+      - "cross"
+    color_scale:
+      king: "Indigo"
+      queen: "Black"
+      prince: "Blue-Black"
+      princess: "Black, rayed Yellow"

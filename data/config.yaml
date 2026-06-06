@@ -1,0 +1,43 @@
+# RuneTarot — Default Application Configuration
+# All settings are loaded from this file and can be overridden via the settings screen
+
+application:
+  name: "RuneTarot"
+  version: "1.0.0"
+  tagline: "Golden Dawn Divination Engine"
+
+display:
+  theme: "hermetic"           # Options: hermetic, midnight, albedo, nigredo
+  show_reversals: true        # Allow reversed cards in readings
+  card_style: "unicode"      # Options: unicode, ascii
+  animation: true             # Enable card draw animations
+  color_enabled: true         # Enable color output
+
+tarot:
+  ordering: "golden_dawn"    # Options: golden_dawn (Justice=8, Strength=11), rider_waite (Justice=11, Strength=8)
+  default_spread: "celtic_cross"
+  shuffle_method: "fisher_yates"  # Options: fisher_yates, astrological, ceremonial
+  significator_selection: false    # Auto-select significator for spreads that use one
+
+api:
+  provider: "openrouter"
+  base_url: "https://openrouter.ai/api/v1"
+  model: "anthropic/claude-sonnet-4"
+  api_key: ""                 # Set via settings screen — NEVER commit with a key
+  max_tokens: 4096
+  temperature: 0.8
+  ai_enabled: false           # Auto-set to true when API key is configured
+  ai_interpretation_depth: "full"  # Options: brief, standard, full
+
+session:
+  save_readings: true
+  max_history: 100
+  export_format: "markdown"   # Options: markdown, json, text
+  session_dir: "session"
+  exports_dir: "exports"
+
+logging:
+  level: "WARNING"
+  file: "runetarot.log"
+  max_file_size_mb: 5
+  backup_count: 3
